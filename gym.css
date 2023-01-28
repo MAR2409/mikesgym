@@ -1,0 +1,333 @@
+:root {
+    --main-color:#d10000;
+    --secondary-color:#faf9f9;
+    --gray-color:#112A46;
+    --color-white:#FFFFFF;
+}
+
+/*  Plat #6fffe9 
+    Silver #a3cef1
+    Gold #ffea00
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Header */
+
+header {
+    background-color:rgba(250, 249, 249, 1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-span {
+    color: #d10000;
+}
+
+.gym-title h1 , .title-span{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.gym-title a {
+    text-decoration: none;
+}
+
+.gym-title {
+    padding: 1.25rem;
+}
+
+.gym-title h1 {
+    color: #112A46;
+}
+
+/* Nav */
+
+.gym-nav li {
+    display: inline-block;    
+    padding: 1.25rem;
+}
+
+.gym-nav a {
+    text-decoration: none;
+    color:var(--gray-color);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.gym-nav a:hover {
+    color: #d10000;
+    text-decoration: underline;
+}
+
+/* Home */
+
+.gym-mission {
+    height: 95vh;
+    background-image:url(..//GymWebsite/Incline-Bench-Press.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color:#3E4347;
+    width: 100%;
+}
+
+.gym-mission h1, p {
+    color: var(--color-white);
+}
+
+.gym-mission p {
+    font-size: 22px;
+    width: 670px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.text-centerspan {
+    color: #d10000;
+}
+
+.gym-textcenter h1 , .text-centerspan { 
+    font-size: 58px;
+    text-transform: uppercase;
+}
+
+.gym-textcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.gym-textcenter h1 {
+    width: 330px;
+    text-align: left;
+}
+
+.span-p {
+    font-size: 22px;
+    color: #d10000;
+}
+
+/* Newsletter */
+
+.gym-newsletter {
+    background-color: #112A46;
+    height: 150px;
+    border-top: 3px solid #d10000 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:3px solid #d10000 ;
+}
+
+.gym-interested p {
+    color: #FFFFFF;
+    font-size: 32px;
+    padding: 1.25rem;
+    text-transform: uppercase;
+}
+
+.gym-subscribe {
+    margin: 1.25rem ;
+    width: 35%;
+    display: flex;
+    justify-content: right;
+}
+
+.gym-subscribe input {
+    width:50% ;
+    height: 40%;
+    border-style: none;
+    font-size: 28px;
+    background-color: #FFFFFF;
+    padding-left: 10px;
+}
+.gym-subscribe button {
+    width:20% ;
+    height: 40%;
+    background-color: #d10000;
+    color: #FFFFFF;
+    border-style: none;
+    font-size: 24px;
+    margin-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.gym-subscribe button:hover {
+    background-color: #fb4b4e;
+    cursor: pointer;
+}
+
+.interested-span {
+    color: #d10000;
+    font-size: 32px;
+}
+
+/* Mission Section */
+
+.gym-objective {
+    background-color: #faf9f9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75vh;
+}
+
+.objective-text {
+    margin-top: 3rem;
+    width: 600px;
+    height: 450px;
+}
+
+.gym-objective h1 {
+    color: #112A46;
+    text-align: center;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.objective-span {
+    color: #d10000;
+    font-size: 48px;
+}
+
+.gym-objective p{
+    color: #112A46;
+    font-size: 20px;
+    line-height: 36px;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.objective-img img {
+    filter: 50%;
+}
+
+img {
+    margin-top: 3rem;
+    border-radius: 5px;
+    width: 550px;
+    filter: brightness(75%);
+}
+
+/* Membership */
+
+.card-flex {
+    background-color: #faf9f9;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+
+.card-membership {
+    width: 375px;
+    height: 575px;
+    border:3px solid #112A46;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-title {
+    background-color:#dee2e6 ;
+}
+
+.card-title h2 {
+    color: #112A46;
+    text-align: center;
+    font-size:40px;
+    padding: 1.15rem 0;
+    text-transform: uppercase;
+}
+
+.card-text li {
+    color: #112A46;
+    list-style: none;
+    padding: 1.15rem 1rem;
+}
+
+.card-price p {
+    color: #112A46;
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 2rem;
+}
+
+.price-span {
+    color: #d10000;
+    font-size: 36px;
+}
+
+.button-flex {
+    display: flex;
+    justify-content: center;
+}
+.card-membership button {
+    border-style: none;
+    text-transform: uppercase;
+    padding: 1.15rem;
+    width: 50%;
+    background-color: #d10000;
+    color: white;
+    border-radius: 100px;
+}
+
+.card-membership button:hover {
+    background-color: #fb4b4e;
+    cursor: pointer;
+}
+
+.card-title-gold {
+    background-color: #ffd100; 
+}
+.card-title-gold h2 {
+    color: #112A46;
+    text-align: center;
+    font-size:40px;
+    padding: 1.15rem 0;
+    text-transform: uppercase;
+}
+
+.card-title-plat {
+    background-color: #6fffe9;
+}
+.card-title-plat h2 {
+    color: #112A46;
+    text-align: center;
+    font-size:40px;
+    padding: 1.15rem 0;
+    text-transform: uppercase;
+}
+
+/* Footer */
+
+.gym-footer {
+    background-color: #112A46;
+    border-top: 3px solid #d10000;
+    border-bottom: 3px solid #d10000;
+}
+
+.gym-footer h1 {
+    font-size:40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 1.1rem 0;
+}
+
+.footer-span {
+    color: #d10000;
+    font-size: 40px;
+}
+
+.gym-footer p {
+    text-align: center;
+    margin-bottom: 1.1rem;
+}
