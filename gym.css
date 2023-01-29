@@ -504,8 +504,6 @@ img {
         flex-direction: column;
         justify-content: space-between;
         height: 107vh;
-        border: 3px solid black;
-        column-gap: 0;
     }
     
     .objective-text {
